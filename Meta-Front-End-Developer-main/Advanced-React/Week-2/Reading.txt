@@ -1,0 +1,73 @@
+Learn to use all the common hooks in React, and how to put them to use within your application. Then, build your own custom hooks.
+Learning Objectives
+Explain the uses and purpose of React hooks.
+Use the useState hook to declare, read and update the state of a component.
+Use the useEffect hook to perform side-effects within a React component.
+Use hooks to fetch data in React.
+Create appropriate custom hooks in React.
+
+Question
+
+Which of the following is true about the useState hook? 
+
+Select all that apply.   
+
+
+The useState hook’s return value in React is the array data structure.  
+
+Correct
+That’s correct. The invocation of the useState hook returns an array.  
+
+
+The useState hook allows you to work with state in components.   
+
+Correct
+That’s correct. The useState hook is used to work with state in a React component.  
+
+
+The useState hook invocation returns a two-member array.   
+
+Correct
+That’s correct. When calling the useState() hook, the returned array holds the state variable's value asthe first item of that array and the function that will be used to update the stateas the second item of that returned array.  
+
+
+When using the useState hook, you must use the state-updating function to update state.   
+
+Correct
+That’s correct. There is only one correct way to update state when using useState and that’s through the state-updating function
+
+
+Side Effect, Pure and Impure function
+A side effect is something that makes a function in pure. Did you know that functions can be classified as pure and impure simply put pure functions don't have side effects.
+
+The correct way to add a side effect functionality is to use the useEffect function.  
+
+
+Rules of Hooks
+    1. First, you should only call hooks from a React component function.
+    2. Second, you should only call hooks at the top level of a React component function. 
+    3. Third, you are allowed to call multiple state hooks or effect hooks inside a component. 
+    4. And finally, always make these multiple hook calls in the same sequence. 
+
+
+Fetch function
+    Fetch is used to make a server requests to retrieve some JSON data from it. 
+Fetch API
+    Fetch API is a set of functionalities that we have at our disposal to use in JavaScript to make such a server request. 
+    It's a bit like a clerk at the post office. Say you're bringing a package to the post office and you're the first in the queue. The clerk on the other side of the service desk is JavaScript. Since they can only do one thing at a time.
+
+
+Which of the below statements is an accurate description of JavaScript utilizing the fetch function?
+
+
+    When JavaScript uses the fetch function it is delegating duties to an external API so that it can continue its process. This is known as asynchronous JavaScript.  
+
+    Correct
+    That’s correct. The fetch function utilizes external APIs to perform tasks that would be cumbersome for JavaScript to fulfil alone.
+
+
+
+Use Rducer Hook
+    The useReducer hook starts with an initial state and reducer function   
+Use Ref Hook
+    The returned value from the useRef hook invocation is an object.  

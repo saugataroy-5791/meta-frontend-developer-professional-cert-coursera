@@ -1,0 +1,11 @@
+{
+    "name": "meta-front-end-developer-coursera",
+    "version": "1.0.0",
+    "description": "Contents of learnings of FrontEnd Developer Professional Certificate by Meta through Coursera",
+    "scripts": {
+        "test": "jest"
+    },
+    "dependencies": {
+        "jest": "^28.1.3"
+    }
+}
